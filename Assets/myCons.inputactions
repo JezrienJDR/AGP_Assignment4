@@ -1,0 +1,90 @@
+{
+    "name": "myCons",
+    "maps": [
+        {
+            "name": "hackCons",
+            "id": "c4c1df0d-3a98-4e3d-b62a-a821e945926b",
+            "actions": [
+                {
+                    "name": "TurnClockwise",
+                    "type": "Button",
+                    "id": "22a8ceb6-6fd9-4374-b7b4-207ffadef480",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TurnCounterClockwise",
+                    "type": "Button",
+                    "id": "ddd72b43-4b80-48cf-9f3a-a8ccf7425168",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RingIn",
+                    "type": "Button",
+                    "id": "99025342-b769-4e73-8f7c-68acf84c294e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RingOut",
+                    "type": "Button",
+                    "id": "c4581366-7eee-4005-b5d6-c576752e2a3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1819bf79-c807-45e2-a8dc-3c2034cca626",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnClockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd99298d-7091-4e0f-a1dd-fd3ed3eed385",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnCounterClockwise",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f18c01b6-c300-43be-83df-aa8e3041129f",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RingIn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1a5883a-3cb2-44c1-a6a6-c7d291f1001d",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RingOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
